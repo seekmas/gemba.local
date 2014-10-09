@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>擀霸中国</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ asset('web/css/bootstrap.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('web/css/font-awesome.css') }}">
+    <link rel='stylesheet' id='camera-css'  href='{{ asset('web/css/camera.css') }}' type='text/css' media='all'>
+    <link rel="stylesheet" type="text/css" href="{{ asset('web/css/slicknav.css') }}">
+    <link rel="stylesheet" href="{{ asset('web/css/prettyPhoto.css') }}" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('web/css/style.css') }}">
+    <script type="text/javascript" src="{{ asset('web/js/jquery-1.8.3.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('web/js/jquery.mobile.customized.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('web/js/jquery.easing.1.3.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('web/js/camera.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('web/js/myscript.js') }}"></script>
+    <script src="{{ asset('web/js/sorting.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('web/js/jquery.isotope.js') }}" type="text/javascript"></script>
+    <!--script type="text/javascript" src="{{ asset('web/js/jquery.nav.js') }}"></script-->
+
+
+    <script>
+        jQuery(function(){
+            jQuery('#camera_wrap_1').camera({
+                transPeriod: 500,
+                time: 3000,
+                height: '490px',
+                thumbnails: false,
+                pagination: true,
+                playPause: false,
+                loader: false,
+                navigation: false,
+                hover: false
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+<!--home start-->
+
+<div id="home">
+    <div class="headerLine">
+        <div id="menuF" class="default">
+            <div class="container">
+                <div class="row">
+                    <div class="logo col-md-4">
+                        <div>
+                            <a href="#">
+                                <img src="{{ asset('new_gemba_logo.png') }}">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="navmenu"style="text-align: center;">
+                            <ul id="menu">
+                                <li class="active" ><a href="#home">首页</a></li>
+                                <li><a href="#about">企业文化</a></li>
+                                <li><a href="#news">案例</a></li>
+                                <li class="last"><a href="#contact">联系</a></li>
+                                <!--li><a href="#features">Features</a></li-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row wrap">
+                <div class="col-md-12 gallery">
+                    <div class="camera_wrap camera_white_skin" id="camera_wrap_1">
+                        <div data-thumb="" data-src="{{ asset('web/images/slides/blank.gif') }}">
+                            <div class="img-responsive camera_caption fadeFromBottom">
+                                <h2>倾听客户.</h2>
+                            </div>
+                        </div>
+                        <div data-thumb="" data-src="{{ asset('web/images/slides/blank.gif') }}">
+                            <div class="img-responsive camera_caption fadeFromBottom">
+                                <h2>真诚对待.</h2>
+                            </div>
+                        </div>
+                        <div data-thumb="" data-src="{{ asset('web/images/slides/blank.gif') }}">
+                            <div class="img-responsive camera_caption fadeFromBottom">
+                                <h2>谦虚谨慎.</h2>
+                            </div>
+                        </div>
+                    </div><!-- #camera_wrap_1 -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 project">
+                <p><img class="img-rounded" src="{{ asset('experences/2.jpg') }}" style="height: 100px;width: 180px" /></p>
+                <h4>为什么 ( Why )</h4>
+                <p>用持续改善的方式来激励员工 </p>
+            </div>
+            <div class="col-md-4 project">
+                <p><img class="img-rounded" src="{{ asset('experences/3.jpg') }}" style="height: 100px;width: 180px" /></p>
+
+                <h4>怎么样 ( How )</h4>
+                <p>通过参与真正的实效的各级领导的共同持续改善活动. </p>
+            </div>
+            <div class="col-md-4 project">
+                <p><img class="img-rounded" src="{{ asset('experences/4.jpg') }}" style="height: 100px;width: 180px" /></p>
+
+                <h4 style="margin-left: 20px;">做什么 ( What )</h4>
+                <p>通过创建自己的业务需求的最佳实用的解决方案来协作. </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 cBusiness">
+                <p align="center"><img src="{{ asset('experences/dna.png') }}" /></p>
+                <h3>公司经历</h3>
+                <h4>我们的精益之旅已经有了了超过26年的历史. </h4>
+                <h4>这个过程中我们已经拜访过超过200家公司、组织,超过200次的日本旅行来参观世界上最好的精益公司.</h4>
+                <h4>我们也有在25个国家里教授精益思想的经历,并从中这些经历中收获丰富的经验.</h4>
+                <h4>我们最开心的是看到我们的客户用极具创意的东西超越我们,并超过我们的力所能及来为他们公司长远的未来作计划,他们也是我们长期的合作伙伴</h4>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-3"><img class="img-circle" src="{{ asset('experences/being.jpg') }}" style="width: 100%" /></div>
+            <div class="col-md-3"><img class="img-circle" src="{{ asset('experences/global-lean.jpg') }}"  style="width: 100%" /></div>
+            <div class="col-md-3"><img class="img-circle" src="{{ asset('experences/line.jpg') }}"  style="width: 100%" /></div>
+            <div class="col-md-3"><img class="img-circle" src="{{ asset('experences/plant.jpg') }}"  style="width: 100%" /></div>
+
+        </div>
+    </div>
+</div>
+
+<!--about start-->
+
+<div id="about">
+    <div class="line2">
+        <div class="container">
+            <div class="row Fresh">
+
+                <div class="col-md-4 Des">
+                    <img src="{{ asset('photos/chen.png') }}" />
+                    <p>首先，Makoto代表着“诚实”。人们需要知道你是诚实的，并在精益项目中看到它的潜能。如果你让它们留下了很好的印象，那么它很容易就能得到支持。</p>
+                </div>
+
+                <div class="col-md-4 Ver">
+                    <img src="{{ asset('photos/zhen.png') }}" />
+                    <p>
+
+                        其次，Makoto代表着“真实”。对于人们而言，了解真实情况是最重要的理念之一，无论是通过视觉或是分享信息，都是了解真实情况的一种方法。如果人们不知道真实情况，那么组织将无法做出正确的决策。
+                    </p>
+                </div>
+
+                <div class="col-md-4 Fully">
+                    <img src="{{ asset('photos/xin.png') }}" />
+                    <p>最后，Makoto代表着“信任”。我们始终坚信人的潜力，这也是为什么我们会在培训上做投资，并给予他们时间及改变自己的权利。我们期盼通过他们的创造力为我们带来惊喜。 </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 wwa">
+                <span name="about" ></span>
+                <h3>创始人团队介绍</h3>
+                <h4>专业从事精益生产与经营管理的研究与发展.</h4>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row team">
+
+            <div class="col-md-3 b1">
+                <img class="img-responsive" src="{{ asset('photos/brad.jpg') }}">
+                <h4>Brad Schmidt</h4>
+                <h5><i class="fa fa-envelope-o"></i> bschmidt@makoto-investments.com</h5>
+
+                <ul>
+                    <li><a href="{{ asset('web/#') }}"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="{{ asset('web/#') }}"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a href="{{ asset('web/#') }}"><i class="fa fa-twitter" ></i></a></li>
+                    <li><a href="{{ asset('web/#') }}"><i class="fa fa-google-plus-square"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 b1">
+                <img class="img-responsive" src="{{ asset('photos/dj.jpg') }}">
+                <h4>DJ Duarte</h4>
+                <h5><i class="fa fa-envelope-o"></i> dduarte@makoto-investments.com</h5>
+
+                <ul>
+                    <li><a href="{{ asset('web/#') }}"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="{{ asset('web/#') }}"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a href="{{ asset('web/#') }}"><i class="fa fa-twitter" ></i></a></li>
+                    <li><a href="{{ asset('web/#') }}"><i class="fa fa-google-plus-square"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 b1">
+                <img class="img-responsive" src="{{ asset('photos/geno.jpg') }}">
+                <h4>CE ‘Geno” Johnston</h4>
+                <h5><i class="fa fa-envelope-o"></i> gjohnston@makoto-investments.com</h5>
+
+                <ul>
+                    <li><a href="{{ asset('web/#') }}"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="{{ asset('web/#') }}"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a href="{{ asset('web/#') }}"><i class="fa fa-twitter" ></i></a></li>
+                    <li><a href="{{ asset('web/#') }}"><i class="fa fa-google-plus-square"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 b1">
+                <img class="img-responsive" src="{{ asset('photos/law.jpg') }}">
+                <h4>Paul Law</h4>
+                <h5><i class="fa fa-envelope-o"></i> plaw@makoto-investments.com</h5>
+
+                <ul>
+                    <li><a href="{{ asset('web/#') }}"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="{{ asset('web/#') }}"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a href="{{ asset('web/#') }}"><i class="fa fa-twitter" ></i></a></li>
+                    <li><a href="{{ asset('web/#') }}"><i class="fa fa-google-plus-square"></i></a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 hr1">
+                <hr/>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" align="center"><h3>价值观</h3></div>
+            <div class="col-md-3 bar">
+                <div class="progB chart" data-percent="100"  data-animate="3500">
+                    <div class="chart chart-content">
+                        <div class="percentage" data-percent="100">
+                            <span class="percent">100</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="textP">
+                    <h3>谦虚</h3>
+                    <p>
+                        谦虚并了解自己并非知晓一切，我们应从一起工作的人身上学习，因为他们是他们做从事岗位的专家。合作是可持续变化的关键
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 bar">
+                <div class="progB chart" data-percent="100"  data-animate="3500">
+                    <div class="chart chart-content">
+                        <div class="percentage" data-percent="100">
+                            <span class="percent">100</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="textP">
+                    <h3>诚实</h3>
+                    <p>
+                        以道德宣扬真实与生活，你将成为他人的崇敬的榜样。秉持改善的理论与实践，以了解达标的标准
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 bar ">
+                <div class="progB chart" data-percent="100"  data-animate="3500">
+                    <div class="chart chart-content">
+                        <div class="percentage" data-percent="100">
+                            <span class="percent">100</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="textP">
+                    <h3>存在感</h3>
+                    <p>
+                        领导存在感意味着采取行动的所有权、决策事务推进的方向及重要性，以智慧产生影响
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 bar ">
+                <div class="progB chart" data-percent="100"  data-animate="3500">
+                    <div class="chart chart-content">
+                        <div class="percentage" data-percent="100">
+                            <span class="percent">100</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="textP">
+                    <h3>乐趣</h3>
+                    <p>
+                        请记住，虽然学习和改变是枯燥且艰难的，但并不意味着我们无法从中获得乐趣
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<!--news start-->
+
+<div id="news">
+    <div class="line4">
+        <div class="container">
+            <div class="row Ama">
+                <div class="col-md-12">
+                    <h3>资讯/案例</h3>
+                    <p>Get the latest news from our blog</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row cBtn">
+            <div class="col-md-12" style="text-align: center; margin-bottom: -90px; z-index: 10;">
+                <ul class="mNews">
+                    <li class="dowbload bhide2"><a href="#"><i class="fa fa-arrow-down"></i>加载更多</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!--contact start-->
+
+<div id="contact">
+    <div class="line5">
+        <div class="container">
+            <div class="row Ama">
+                <div class="col-md-12">
+                    <h3>有新的业务需求?马上联系我们</h3>
+                    <p>在线留言或者直接联系我们</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h3>联系我们</h3>
+
+            <div class="col-md-9 col-xs-12 forma">
+                {{ form_start(messageForm) }}
+
+                    {{ form_widget(messageForm.name,{'attr':{'class':'col-md-6 col-xs-12 name','placeholder':'怎么称呼您'}}) }}
+
+                    {{ form_widget(messageForm.email,{'attr':{'class':'col-md-6 col-xs-12 Email','placeholder':'您的Email'}}) }}
+
+                    {{ form_widget(messageForm.subject,{'attr':{'class':'col-md-12 col-xs-12 Subject','placeholder':'主题'}}) }}
+
+                    {{ form_widget(messageForm.message,{'attr':{'class':'col-md-12 col-xs-12 Message','placeholder':'反馈内容'}}) }}
+
+                {{ form_end(messageForm) }}
+            </div>
+            <div class="col-md-3 col-xs-12 cont">
+                <ul>
+                    <li><i class="fa fa-home"></i> 上海市黄浦区人民路885号22楼2206室</li>
+                    <li><i class="fa fa-phone"></i> +86 62482365</li>
+                    <li><a href="mailto:michael.wang.gemba@gmail.com"><i class="fa fa-envelope"></i>michael.wang.gemba@gmail.com</a></li>
+                    <li><a href="#"><i class="fa fa-weibo"></i>新浪微博</a></li></a>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="line7">
+        <div class="container">
+            <div class="row footer">
+                <div class="col-md-12">
+                    <h3>订阅</h3>
+                    <p>订阅更新的消息</p>
+                    <div class="fr">
+                        <div style="display: inline-block;">
+                            {{ form_start(subscriberForm , {'attr':{'class':'form-inline'}}) }}
+
+                            <div class="form-group">
+                            {{ form_widget(subscriberForm.email , {'attr':{'class':'col-md-6 fEmail' , 'placeholder':'输入你的Email'}}) }}
+                            </div>
+
+                            <div class="form-group">
+                            {{ form_widget(subscriberForm.submit , {'attr':{'class':'btn btn-default btn-lg'}}) }}
+                            </div>
+
+                            {{ form_end(subscriberForm) }}
+                        </div>
+                    </div>
+                </div>
+                <div class="soc col-md-12">
+                    <ul>
+                        <li class="soc1"><a href="#"></a></li>
+                        <li class="soc2"><a href="#"></a></li>
+                        <li class="soc3"><a href="#"></a></li>
+                        <li class="soc4"><a href="#"></a></li>
+                        <li class="soc5"><a href="#"></a></li>
+                        <li class="soc6"><a href="#"></a></li>
+                        <li class="soc7"><a href="#"></a></li>
+                        <li class="soc8"><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lineBlack">
+        <div class="container">
+            <div class="row downLine">
+                <div class="col-md-12 text-right">
+                    <input  id="searchPattern" type="search" placeholder="搜索"/><i class="glyphicon glyphicon-search" style="font-size: 13px; color:#a5a5a5;" id="iS"></i>
+                </div>
+                <div class="col-md-6 text-left copy">
+                    <p>Copyright &copy; 2014 擀霸中国. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-right dm">
+                    <ul id="downMenu">
+                        <li class="active"><a href="#home">首页</a></li>
+                        <li><a href="#about">企业文化</a></li>
+                        <li><a href="#news">案例</a></li>
+                        <li class="last"><a href="#contact">联系</a></li>
+                        <!--li><a href="#features">Features</a></li-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="{{ asset('web/js/jquery.prettyPhoto.js') }}" type="text/javascript" charset="utf-8"></script>
+<script src="{{ asset('web/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('web/js/jquery.slicknav.js') }}"></script>
+<script>
+    $(document).ready(function(){
+        $(".bhide").click(function(){
+            $(".hideObj").slideDown();
+            $(this).hide(); //.attr()
+            return false;
+        });
+        $(".bhide2").click(function(){
+            $(".container.hideObj2").slideDown();
+            $(this).hide(); // .attr()
+            return false;
+        });
+
+        $('.heart').mouseover(function(){
+            $(this).find('i').removeClass('fa-heart-o').addClass('fa-heart');
+        }).mouseout(function(){
+            $(this).find('i').removeClass('fa-heart').addClass('fa-heart-o');
+        });
+
+        function sdf_FTS(_number,_decimal,_separator)
+        {
+            var decimal=(typeof(_decimal)!='undefined')?_decimal:2;
+            var separator=(typeof(_separator)!='undefined')?_separator:'';
+            var r=parseFloat(_number)
+            var exp10=Math.pow(10,decimal);
+            r=Math.round(r*exp10)/exp10;
+            rr=Number(r).toFixed(decimal).toString().split('.');
+            b=rr[0].replace(/(\d{1,3}(?=(\d{3})+(?:\.\d|\b)))/g,"\$1"+separator);
+            r=(rr[1]?b+'.'+rr[1]:b);
+
+            return r;
+        }
+
+        setTimeout(function(){
+            $('#counter').text('0');
+            $('#counter1').text('0');
+            $('#counter2').text('0');
+            setInterval(function(){
+
+                var curval=parseInt($('#counter').text());
+                var curval1=parseInt($('#counter1').text().replace(' ',''));
+                var curval2=parseInt($('#counter2').text());
+                if(curval<=707){
+                    $('#counter').text(curval+1);
+                }
+                if(curval1<=12280){
+                    $('#counter1').text(sdf_FTS((curval1+20),0,' '));
+                }
+                if(curval2<=245){
+                    $('#counter2').text(curval2+1);
+                }
+            }, 2);
+
+        }, 500);
+    });
+</script>
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('#menu').slicknav();
+
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        var $menu = $("#menuF");
+
+        $(window).scroll(function(){
+            if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
+                $menu.fadeOut('fast',function(){
+                    $(this).removeClass("default")
+                            .addClass("fixed transbg")
+                            .fadeIn('fast');
+                });
+            } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
+                $menu.fadeOut('fast',function(){
+                    $(this).removeClass("fixed transbg")
+                            .addClass("default")
+                            .fadeIn('fast');
+                });
+            }
+        });
+    });
+    //jQuery
+</script>
+<script>
+    /*menu*/
+    function calculateScroll() {
+        var contentTop      =   [];
+        var contentBottom   =   [];
+        var winTop      =   $(window).scrollTop();
+        var rangeTop    =   200;
+        var rangeBottom =   500;
+        $('.navmenu').find('a').each(function(){
+            contentTop.push( $( $(this).attr('href') ).offset().top );
+            contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
+        })
+        $.each( contentTop, function(i){
+            if ( winTop > contentTop[i] - rangeTop && winTop < contentBottom[i] - rangeBottom ){
+                $('.navmenu li')
+                        .removeClass('active')
+                        .eq(i).addClass('active');
+            }
+        })
+    };
+
+    $(document).ready(function(){
+        calculateScroll();
+        $(window).scroll(function(event) {
+            calculateScroll();
+        });
+        $('.navmenu ul li a').click(function() {
+            $('html, body').animate({scrollTop: $(this.hash).offset().top - 80}, 800);
+            return false;
+        });
+    });
+</script>
+<script type="text/javascript" charset="utf-8">
+
+    jQuery(document).ready(function(){
+        jQuery(".pretty a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: true, social_tools: ''});
+
+    });
+</script>
+
+
+<script src="{{ asset('bootbox/bootbox.js') }}"></script>
+{% for type, messages in app.session.flashbag.all() %}
+    <script>
+        {% for message in messages %}
+        bootbox.dialog({
+            message: "{{ message }}",
+            title: "提醒",
+            buttons: {
+                success: {
+                    label: "确定",
+                    className: "btn-success",
+                    callback: function() {
+
+                    }
+                }
+            }
+        });
+        {% endfor %}
+    </script>
+{% endfor %}
+
+
+</body>
+</html>

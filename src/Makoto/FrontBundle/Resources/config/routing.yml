@@ -1,0 +1,7 @@
+makoto_front_homepage:
+    path:     /
+    defaults: { _controller: MakotoFrontBundle:Default:index }
+
+makoto_front_map:
+    path:     /maps
+    defaults: { _controller: MakotoFrontBundle:Default:map }
