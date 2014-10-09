@@ -19,7 +19,7 @@ class MessageType extends AbstractType
             ->add('email')
             ->add('subject')
             ->add('message')
-            ->add('submit','submit')
+            ->add('submit','submit',['label' => '确认发送信息'])
         ;
     }
     

@@ -370,7 +370,14 @@
 
                     {{ form_widget(messageForm.subject,{'attr':{'class':'col-md-12 col-xs-12 Subject','placeholder':'主题'}}) }}
 
+
                     {{ form_widget(messageForm.message,{'attr':{'class':'col-md-12 col-xs-12 Message','placeholder':'反馈内容'}}) }}
+
+
+                    <div class="col-md-12">
+                        <br/>
+                    {{ form_widget(messageForm.submit,{'attr':{'class':'btn btn-default'}}) }}
+                    </div>
 
                 {{ form_end(messageForm) }}
             </div>

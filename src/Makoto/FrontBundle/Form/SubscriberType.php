@@ -16,7 +16,7 @@ class SubscriberType extends AbstractType
     {
         $builder
             ->add('email')
-            ->add('submit' , 'submit')
+            ->add('submit','submit',['label' => '确认订阅'])
         ;
     }
     
