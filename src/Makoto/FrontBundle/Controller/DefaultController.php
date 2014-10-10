@@ -14,10 +14,6 @@ class DefaultController extends Controller
 {
     public function indexAction(Request $request)
     {
-
-
-
-
         $em = $this->getDoctrine()->getManager();
 
         $subscriber = new Subscriber();
@@ -76,25 +72,28 @@ class DefaultController extends Controller
         echo '<meta http-equiv="Content-Type" content="text/html; charset=gb2312">';
         //http://xjeylyef.com/vote/Vote_save.asp?zjhm=370281199308175725
 
+
+
         $ch = curl_init();
-
         $ip = $this->rand_ip();
-
-
         $header = array(
             'CLIENT-IP:'.$ip,
             'X-FORWARDED-FOR:'.$ip,
         );
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
         //curl_setopt ($ch, CURLOPT_URL, "http://xjeylyef.com/vote/Vote_save.asp?zjhm=370281199308175725");
+        curl_setopt ($ch, CURLOPT_URL, "http://xjeylyef.com/vote/Vote_save.asp?zjhm=370102199512020316");
 
-        //http://xjeylyef.com/vote/Vote_save.asp?zjhm=370102199512020316w
         curl_setopt ($ch, CURLOPT_REFERER, "http://xjeylyef.com");
         curl_exec ($ch);
         curl_close ($ch);
 
 
-        return new Response();
+
+
+
+        return new Response(date('Y-m-d H:i:s'));
     }
 
     function rand_ip(){
