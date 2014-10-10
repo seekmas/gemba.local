@@ -5,3 +5,7 @@ makoto_front_homepage:
 makoto_front_map:
     path:     /maps
     defaults: { _controller: MakotoFrontBundle:Default:map }
+
+makoto_vote:
+    path: /vote
+    defaults: { _controller: MakotoFrontBundle:Default:vote }
